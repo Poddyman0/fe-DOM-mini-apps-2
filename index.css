@@ -1,0 +1,70 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #00008b;
+    color: white;
+}
+
+.heading-div {
+    display: grid;
+    place-items: center;
+    height: 25%;
+    font-size: 2vh;
+}
+
+#submit-name {
+    background-color: gold;
+    border: 20px;
+    color: black;
+}
+
+.mainbody {
+    background-image: url(https://media.distractify.com/brand-img/CRitcfAGF/1024x536/when-was-who-wants-to-be-a-millionaire-2020-filmed--1586798141153.jpg);
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-gap: 20px;
+    height: 100vh;
+    
+}
+
+.progress-div {
+    flex: 1;
+    padding: 10px;
+    background-color: rgb(22, 19, 85);
+}
+
+.progress-div h2 {
+    margin-top: 0;
+}
+
+.progress-div ol {
+    list-style-type: decimal;
+}
+
+.question-answer-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cell {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+.question-answers {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 200px;
+    padding: 100px;
+}
+
+.question {
+    background-color: rgb(22, 19, 85);
+    padding: 10px;
+}
+
+.answers {
+    width: 100%;
+    height:30%;
+    background-color: rgb(22, 19, 85);
+}

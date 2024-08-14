@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="index.css">
+<meta http-equic="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" contents="width=device-width, initial-scale=1">
+<title>Who wants to be a coder?</title>
+<script src="./index.js" defer></script>
+
+</html>
+<head>
+<body>
+    <main>
+        <div class="heading-div">
+            <h1 id="title" class="heading">Who wants to be a coder?</h1>
+        </div>
+            <div class="score"  action="submit.php" method="post">
+            <label>Your score:</label>
+            <label id="score">0</label>
+            </div>
+        <div class="mainbody">
+        <div class="question-answer-table">
+            <div id ="myelement"></div>
+            <table class="question-answers">
+                <p id="para"></p>
+                <form action="submit.php" method="post">
+                    <label>Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label id="submit-name">Submit</label>
+                    <br>
+                    <div class="question">
+                        <label id="question">Question 1:</label>
+                        <br>
+                    </div>
+                    <table class="answers">
+                        <tr>
+                            <td id="a1" class="cell">answer1</td>
+                            <br>
+                            <td id="a2" class="cell">answer2</td>
+                            <br>
+                        </tr>
+                        <tr>
+                            <td id="a3" class="cell">answer3</td>
+                            <br>
+                            <td id="a4" class="cell">answer4</td>
+                            <br>
+                        </tr>
+                    </table>
+                </form>
+            </table>
+        </div>
+        <div class="progress-div">
+            <h2 id="progress-tracker" class="progress">Progress</h2>
+            <ol id="progress-list">
+                <li>CEO of tech company</li>
+                <li>Senior full stack developer</li>
+                <li>full stack developer</li>
+                <li>Junior front end developer</li>
+                <li>Northcoder</li>
+            </ol>
+        </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</head>
